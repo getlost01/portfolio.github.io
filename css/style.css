@@ -852,6 +852,17 @@ body.dark .shadow-dark{
         flex: 0 0 80%;
         max-width: 90%;
     }
+    .contact .contact-info-item .icon .fa{
+        font-size: 25px;
+    }
+    .contact .contact-info-item h4{
+        font-size: 14px;
+        margin: 5px 0 5px;
+    }
+    .contact .contact-info-item p{
+        font-size: 12px;
+        line-height: 15px;
+    }
 }
 @media(max-width: 766px){
     .about .about-con .personal-info,
