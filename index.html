@@ -479,22 +479,23 @@
                             <div class="contact-info-item padd-15">
                                 <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
                                 <h4>E-Mail</h4>
-                                <p>aagamjain573@gmail.com</p>
+                                <p>aagamjain573 @gmail.com</p>
                             </div>
 
                         </div>
                         <div class="row">
                             <div class="contact-form padd-15">
+                                <form action="form-handler.php" method="post">
                                 <div class="row">
                                     <div class="form-item col-6 padd-15">
                                         <div class="form-group">
-                                          <input type="text" class="form-control" placeholder="Name*">
+                                          <input type="text" name="name" class="form-control" placeholder="Name*">
                                          </div>
                                         </div>
 
                                     <div class="form-item col-6 padd-15">
                                         <div class="form-group ">
-                                          <input type="text" class="form-control" placeholder="E-mail*">
+                                          <input type="text" name="email" class="form-control" placeholder="E-mail*">
                                          </div>
                                     </div>
                                 </div>
@@ -502,7 +503,7 @@
                                 <div class="row">
                                     <div class="form-item  col-12 padd-15">
                                         <div class="form-group">
-                                          <input type="text" class="form-control" placeholder="Subject*">
+                                          <input type="text" name="subject" class="form-control" placeholder="Subject*">
                                          </div>
                                     </div>
                                 </div>
@@ -510,7 +511,7 @@
                                  <div class="row">
                                     <div class="form-item   col-12 padd-15">
                                         <div class="form-group ">
-                                          <textarea class="form-control" placeholder="Type Your Message Here...."></textarea>
+                                          <textarea class="form-control" name="message" placeholder="Type Your Message Here...."></textarea>
                                          </div>
                                     </div>
                                 </div>
@@ -523,6 +524,7 @@
                                         </div>
                                     </div>
                                 </div>
+                            </form>
                             </div>
                         </div>
                     </div>
