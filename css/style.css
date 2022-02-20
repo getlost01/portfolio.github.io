@@ -719,6 +719,17 @@ max-width: 100%;
     padding: 0 50px;
 }
 
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f2f2fc;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+  }
 
 /* dark-body */
 body.dark .aside,
@@ -728,7 +739,7 @@ body.dark .services .services-item .service-item-inner,
 body.dark .blog .blog-item-inner .blog-info {
     background-color: #222222;
 }
-body.dark .section,
+body.dark .section,body.dark ::-webkit-scrollbar-track,
 body.dark .contact .contact-form .form-item .form-control{
     background-color: #151515;
 }
