@@ -1,0 +1,34 @@
+.aside .logo a::before{
+    border-top: 4px solid#ec1839;
+    border-left: 4px solid#ec1839;
+}
+
+.aside .logo a::after{
+    border-bottom: 4px solid#ec1839;
+    border-right: 4px solid#ec1839;
+}
+.aside .nav li a:hover,body.dark .aside .nav li a:hover,
+.contact .contact-info-item .icon .fa,
+.about .about-con .about-text h3 span,
+.aside .nav li a.active,
+body.dark .aside .nav li a.active,
+.blog .blog-item-inner .blog-info .blog-tags a,
+.about .about-con .timeline-text span,
+.outer-links,
+.services .services-item .service-item-inner .icon .fa{
+    color: #ec1839;
+}
+.aside .nav-toggle span,
+.aside .nav-toggle span::before,
+.aside .nav-toggle span::after,
+.home .intro .social a, ::-webkit-scrollbar-thumb,
+.section-title h2::before,
+.services .services-item .service-item-inner:hover .icon,
+.section-title h2::after,.about .about-con .timeline .circle-dot,
+.btn,.about .about-con .timeline .timeline-item::before,.blog .blog-item-inner .blog-img .blog-date,
+.about .about-con .skills .skill-items .progress .progress-in{
+    background-color: #ec1839;
+}
+.home .intro img{
+    border: 3px solid #ec1839;
+}
