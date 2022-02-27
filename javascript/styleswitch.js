@@ -1,4 +1,3 @@
-
 window.addEventListener("load",function(){
     document.querySelector(".preloader").classList.add("opacity-0");
     this.setTimeout(()=>{
