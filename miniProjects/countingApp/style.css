@@ -1,0 +1,52 @@
+body{
+  background-color: rgb(37, 31, 31);
+  color: azure;
+  text-align: center;
+  padding-top: 10%;
+}
+.row{
+  border: 1px solid antiquewhite;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(215, 212, 255, 0.5);
+  background-color: rgb(26, 26, 26);
+  padding: 15px;
+}
+.row:hover{
+  box-shadow: 0 0 15px rgba(215, 212, 255, 0.5);
+}
+h1{
+  font-size: 40px;
+}
+h2{
+  font-size: 40px;
+  color:aliceblue;
+}
+button{
+   border: 1px solid rgb(250, 60, 60);
+   background-color: red;
+   color: antiquewhite;
+   width: 200px;
+   padding: 10px 0px;
+   font-size: 25px;
+   transition: all 0.3s ease;
+   margin: 10px;
+   border-radius: 4px;
+}
+button:hover{
+   background-color:  rgb(26, 26, 26);
+   color: antiquewhite;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(250, 60, 60, 0.3);
+}
+.save{
+  background-color: green;
+  border: 1px solid rgb(41, 252, 51);
+}
+.save:hover{
+  box-shadow: 0 0 10px rgba(41, 252, 51, 0.3);
+}
+p{
+  font-size: 25px;
+}
