@@ -1,6 +1,6 @@
 
 window.addEventListener("load",function(){
-    setTimeout(()=>{document.querySelector(".preloader").style.display="none"; document.querySelector(".preloader").classList.add("opacity-0"); },2000)
+    setTimeout(()=>{document.querySelector(".preloader").style.display="none"; document.querySelector(".preloader").classList.add("opacity-0"); },1000)
 })
 
 {
