@@ -3,13 +3,13 @@ window.addEventListener("load",function(){
     setTimeout(()=>{document.querySelector(".preloader").style.display="none"; document.querySelector(".preloader").classList.add("opacity-0"); },2000)
 })
 
-
+{
 const link=document.querySelectorAll(".alt-style");
 var totallinks=link.length;
 function setActiveStyle(color){
     for(let i=0;i<totallinks;i++)
     {
-        if(color==link[i].getAttribute("title"))
+        if(color===link[i].getAttribute("title"))
         {
             link[i].removeAttribute("disabled");
         }
@@ -18,6 +18,9 @@ function setActiveStyle(color){
             link[i].setAttribute("disabled","true");
         }
     }
+}
+document.querySelector('#defaultStyle1').click();
+document.querySelector('#defaultStyle2').click();
 }
 const bodyskin=document.querySelectorAll(".body-skin");
 var totalbodyskin=bodyskin.length;
